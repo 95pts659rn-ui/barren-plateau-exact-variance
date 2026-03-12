@@ -1,0 +1,115 @@
+{
+  "block": "Block I",
+  "title": "Exact Formula Verification",
+  "description": "Var[dC/dtheta_k] = ||[G~_k, H]||_F^2 / (dim(dim+1))",
+  "data": [
+    {
+      "n": 2,
+      "dim": 4,
+      "hamiltonian": "GHZ",
+      "pred_var_mean": 0.0,
+      "meas_var_mean": 0.0,
+      "ratio": 0.0,
+      "error_percent": 100.0
+    },
+    {
+      "n": 2,
+      "dim": 4,
+      "hamiltonian": "Ising_ZZ",
+      "pred_var_mean": 0.0,
+      "meas_var_mean": 0.0,
+      "ratio": 0.0,
+      "error_percent": 100.0
+    },
+    {
+      "n": 2,
+      "dim": 4,
+      "hamiltonian": "Random_traceless",
+      "pred_var_mean": 0.01883729319472246,
+      "meas_var_mean": 0.01883277232290486,
+      "ratio": 0.9997600041698738,
+      "error_percent": 0.023999583012623837
+    },
+    {
+      "n": 3,
+      "dim": 8,
+      "hamiltonian": "GHZ",
+      "pred_var_mean": 0.015237078702864868,
+      "meas_var_mean": 0.015191105484855858,
+      "ratio": 0.9969828062907908,
+      "error_percent": 0.3017193709209165
+    },
+    {
+      "n": 3,
+      "dim": 8,
+      "hamiltonian": "Ising_ZZ",
+      "pred_var_mean": 0.027824039139387816,
+      "meas_var_mean": 0.027845500647563165,
+      "ratio": 1.0007713297148497,
+      "error_percent": 0.07713297148497222
+    },
+    {
+      "n": 3,
+      "dim": 8,
+      "hamiltonian": "Random_traceless",
+      "pred_var_mean": 0.006931816636166841,
+      "meas_var_mean": 0.007022187747396193,
+      "ratio": 1.0130371468220667,
+      "error_percent": 1.3037146822066692
+    },
+    {
+      "n": 4,
+      "dim": 16,
+      "hamiltonian": "GHZ",
+      "pred_var_mean": 0.008189587985478348,
+      "meas_var_mean": 0.008148969807892757,
+      "ratio": 0.9950402660478629,
+      "error_percent": 0.4959733952137113
+    },
+    {
+      "n": 4,
+      "dim": 16,
+      "hamiltonian": "Ising_ZZ",
+      "pred_var_mean": 0.01091978458283955,
+      "meas_var_mean": 0.010930229779956207,
+      "ratio": 1.0009565387519705,
+      "error_percent": 0.09565387519705482
+    },
+    {
+      "n": 4,
+      "dim": 16,
+      "hamiltonian": "Random_traceless",
+      "pred_var_mean": 0.0018473948307410146,
+      "meas_var_mean": 0.001857613415214384,
+      "ratio": 1.0055313484174202,
+      "error_percent": 0.5531348417420201
+    },
+    {
+      "n": 5,
+      "dim": 32,
+      "hamiltonian": "GHZ",
+      "pred_var_mean": 0.004258266960036739,
+      "meas_var_mean": 0.004257571233635935,
+      "ratio": 0.9998366174767029,
+      "error_percent": 0.016338252329706204
+    },
+    {
+      "n": 5,
+      "dim": 32,
+      "hamiltonian": "Ising_ZZ",
+      "pred_var_mean": 0.003606365467439007,
+      "meas_var_mean": 0.003579208531917894,
+      "ratio": 0.9924697217277876,
+      "error_percent": 0.7530278272212421
+    },
+    {
+      "n": 5,
+      "dim": 32,
+      "hamiltonian": "Random_traceless",
+      "pred_var_mean": 0.00047678083782219904,
+      "meas_var_mean": 0.0004762086729376755,
+      "ratio": 0.9987999415263059,
+      "error_percent": 0.12000584736940878
+    }
+  ]
+}

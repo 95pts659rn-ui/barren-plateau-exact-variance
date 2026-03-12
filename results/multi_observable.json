@@ -1,0 +1,37 @@
+{
+  "block": "Block V",
+  "title": "Multi-Observable Hamiltonian",
+  "description": "Formula holds for H = ZZ + eps*XX (multi-term)",
+  "data": [
+    {
+      "epsilon": 0.0,
+      "H": "ZZ + eps*XX",
+      "var_mean": 0.00915172777621982,
+      "var_std": 0.003262447115433815
+    },
+    {
+      "epsilon": 0.1,
+      "H": "ZZ + eps*XX",
+      "var_mean": 0.009194039315373258,
+      "var_std": 0.003513781957134319
+    },
+    {
+      "epsilon": 0.5,
+      "H": "ZZ + eps*XX",
+      "var_mean": 0.011257343517276175,
+      "var_std": 0.00333361665515667
+    },
+    {
+      "epsilon": 1.0,
+      "H": "ZZ + eps*XX",
+      "var_mean": 0.016500226925518433,
+      "var_std": 0.0035585819309753475
+    },
+    {
+      "epsilon": 2.0,
+      "H": "ZZ + eps*XX",
+      "var_mean": 0.037359794344088815,
+      "var_std": 0.00838961875983356
+    }
+  ]
+}

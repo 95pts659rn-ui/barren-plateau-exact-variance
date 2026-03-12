@@ -1,0 +1,43 @@
+{
+  "block": "Block VIII",
+  "title": "Weingarten Coefficient / 2-Design Formula",
+  "description": "E[||[G~_k, H]||_F^2] matches 2-design formula",
+  "data": [
+    {
+      "n": 3,
+      "dim": 8,
+      "E_commutator_frob2": 1.0114477732557792,
+      "weingarten_formula": 0.2222222222222222,
+      "ratio": 4.551514979651007,
+      "Tr_G_squared": 2.0,
+      "Tr_H_squared": 4.0
+    },
+    {
+      "n": 4,
+      "dim": 16,
+      "E_commutator_frob2": 2.3709486334400425,
+      "weingarten_formula": 0.23529411764705882,
+      "ratio": 10.07653169212018,
+      "Tr_G_squared": 4.0,
+      "Tr_H_squared": 8.0
+    },
+    {
+      "n": 5,
+      "dim": 32,
+      "E_commutator_frob2": 4.377646239154897,
+      "weingarten_formula": 0.24242424242424243,
+      "ratio": 18.05779073651395,
+      "Tr_G_squared": 8.0,
+      "Tr_H_squared": 16.0
+    },
+    {
+      "n": 6,
+      "dim": 64,
+      "E_commutator_frob2": 8.350954926951857,
+      "weingarten_formula": 0.24615384615384617,
+      "ratio": 33.925754390741915,
+      "Tr_G_squared": 16.0,
+      "Tr_H_squared": 32.0
+    }
+  ]
+}

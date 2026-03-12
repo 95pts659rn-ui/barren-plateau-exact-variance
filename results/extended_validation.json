@@ -1,0 +1,223 @@
+{
+  "block": "Block IV",
+  "title": "Extended Validation",
+  "description": "Var scaling across n=2..9 with bootstrap confidence intervals",
+  "data": [
+    {
+      "n": 2,
+      "dim": 4,
+      "hamiltonian": "GHZ",
+      "pred_var": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.0,
+      "log2_var_over_n": -49.82892142331043
+    },
+    {
+      "n": 2,
+      "dim": 4,
+      "hamiltonian": "Ising_ZZ",
+      "pred_var": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.0,
+      "log2_var_over_n": -49.82892142331043
+    },
+    {
+      "n": 2,
+      "dim": 4,
+      "hamiltonian": "Random_traceless",
+      "pred_var": 0.032395060526472653,
+      "ci_lower": 0.0314580846392094,
+      "ci_upper": 0.03331526467948075,
+      "log2_var_over_n": -2.4740411682277688
+    },
+    {
+      "n": 3,
+      "dim": 8,
+      "hamiltonian": "GHZ",
+      "pred_var": 0.015092106949893925,
+      "ci_lower": 0.014625838498719554,
+      "ci_upper": 0.015694639352173884,
+      "log2_var_over_n": -2.0166873202834035
+    },
+    {
+      "n": 3,
+      "dim": 8,
+      "hamiltonian": "Ising_ZZ",
+      "pred_var": 0.028608188008345595,
+      "ci_lower": 0.02769988142212712,
+      "ci_upper": 0.029368790083751192,
+      "log2_var_over_n": -1.709142688984399
+    },
+    {
+      "n": 3,
+      "dim": 8,
+      "hamiltonian": "Random_traceless",
+      "pred_var": 0.006854804781759315,
+      "ci_lower": 0.006742580994409669,
+      "ci_upper": 0.006964173133376204,
+      "log2_var_over_n": -2.3962229015461154
+    },
+    {
+      "n": 4,
+      "dim": 16,
+      "hamiltonian": "GHZ",
+      "pred_var": 0.00881741069716136,
+      "ci_lower": 0.008616914456248573,
+      "ci_upper": 0.00903025165318832,
+      "log2_var_over_n": -1.7063573063922026
+    },
+    {
+      "n": 4,
+      "dim": 16,
+      "hamiltonian": "Ising_ZZ",
+      "pred_var": 0.010601232667118455,
+      "ci_lower": 0.010368898656115821,
+      "ci_upper": 0.010832996437711264,
+      "log2_var_over_n": -1.6399060411676816
+    },
+    {
+      "n": 4,
+      "dim": 16,
+      "hamiltonian": "Random_traceless",
+      "pred_var": 0.001879144432227228,
+      "ci_lower": 0.0018641105283443656,
+      "ci_upper": 0.0018946903730871758,
+      "log2_var_over_n": -2.263927081797747
+    },
+    {
+      "n": 5,
+      "dim": 32,
+      "hamiltonian": "GHZ",
+      "pred_var": 0.004101141907923089,
+      "ci_lower": 0.0039823957775555465,
+      "ci_upper": 0.004209515582835164,
+      "log2_var_over_n": -1.5859517239850622
+    },
+    {
+      "n": 5,
+      "dim": 32,
+      "hamiltonian": "Ising_ZZ",
+      "pred_var": 0.0037194319480661777,
+      "ci_lower": 0.0036380131320588277,
+      "ci_upper": 0.003807009949593419,
+      "log2_var_over_n": -1.6141403965520962
+    },
+    {
+      "n": 5,
+      "dim": 32,
+      "hamiltonian": "Random_traceless",
+      "pred_var": 0.00047207433928059256,
+      "ci_lower": 0.0004702274732312851,
+      "ci_upper": 0.0004740267244093824,
+      "log2_var_over_n": -2.209739663116801
+    },
+    {
+      "n": 6,
+      "dim": 64,
+      "hamiltonian": "GHZ",
+      "pred_var": 0.0020032675655686466,
+      "ci_lower": 0.001935019226594002,
+      "ci_upper": 0.002071960666526234,
+      "log2_var_over_n": -1.4939048596167925
+    },
+    {
+      "n": 6,
+      "dim": 64,
+      "hamiltonian": "Ising_ZZ",
+      "pred_var": 0.001289969286381334,
+      "ci_lower": 0.0012643584856470813,
+      "ci_upper": 0.0013163191520518265,
+      "log2_var_over_n": -1.5997412614263988
+    },
+    {
+      "n": 6,
+      "dim": 64,
+      "hamiltonian": "Random_traceless",
+      "pred_var": 0.00012091425164266663,
+      "ci_lower": 0.00012063008899333352,
+      "ci_upper": 0.00012119188174745212,
+      "log2_var_over_n": -2.168954680113742
+    },
+    {
+      "n": 7,
+      "dim": 128,
+      "hamiltonian": "GHZ",
+      "pred_var": 0.0009778955340703438,
+      "ci_lower": 0.0009302942605745662,
+      "ci_upper": 0.0010234511643445181,
+      "log2_var_over_n": -1.4282902893345355
+    },
+    {
+      "n": 7,
+      "dim": 128,
+      "hamiltonian": "Ising_ZZ",
+      "pred_var": 0.000496875301404269,
+      "ci_lower": 0.0004820993188488143,
+      "ci_upper": 0.0005108805837362823,
+      "log2_var_over_n": -1.567832649875265
+    },
+    {
+      "n": 7,
+      "dim": 128,
+      "hamiltonian": "Random_traceless",
+      "pred_var": 3.0296720637646744e-05,
+      "ci_lower": 3.0253031948258116e-05,
+      "ci_upper": 3.0340264650274546e-05,
+      "log2_var_over_n": -2.1443541188223763
+    },
+    {
+      "n": 8,
+      "dim": 256,
+      "hamiltonian": "GHZ",
+      "pred_var": 0.0004509538791289615,
+      "ci_lower": 0.0004266688328614497,
+      "ci_upper": 0.000474251515317551,
+      "log2_var_over_n": -1.3893415610951805
+    },
+    {
+      "n": 8,
+      "dim": 256,
+      "hamiltonian": "Ising_ZZ",
+      "pred_var": 0.00019055914561036117,
+      "ci_lower": 0.00018605482027001018,
+      "ci_upper": 0.00019461811013796618,
+      "log2_var_over_n": -1.544684191209697
+    },
+    {
+      "n": 8,
+      "dim": 256,
+      "hamiltonian": "Random_traceless",
+      "pred_var": 7.597116771517912e-06,
+      "ci_lower": 7.591484439374456e-06,
+      "ci_upper": 7.602788981621509e-06,
+      "log2_var_over_n": -2.1257645716199147
+    },
+    {
+      "n": 9,
+      "dim": 512,
+      "hamiltonian": "GHZ",
+      "pred_var": 0.00023328288863661448,
+      "ci_lower": 0.00021724362845336828,
+      "ci_upper": 0.00025032407105849943,
+      "log2_var_over_n": -1.340625765602274
+    },
+    {
+      "n": 9,
+      "dim": 512,
+      "hamiltonian": "Ising_ZZ",
+      "pred_var": 7.549930617608097e-05,
+      "ci_lower": 7.324314346030865e-05,
+      "ci_upper": 7.747112948387999e-05,
+      "log2_var_over_n": -1.5214641208916238
+    },
+    {
+      "n": 9,
+      "dim": 512,
+      "hamiltonian": "Random_traceless",
+      "pred_var": 1.9029146811040879e-06,
+      "ci_lower": 1.9019222004632104e-06,
+      "ci_upper": 1.9038621502722879e-06,
+      "log2_var_over_n": -2.1114841878661634
+    }
+  ]
+}

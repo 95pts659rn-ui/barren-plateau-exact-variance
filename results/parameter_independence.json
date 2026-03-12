@@ -1,0 +1,68 @@
+{
+  "block": "Block II",
+  "title": "L is Parameter-Free, Basis-Fixed",
+  "description": "L = {Z_0, ..., Z_{n-1}} is fixed by measurement basis, not by circuit",
+  "parts": [
+    {
+      "name": "Part A: ECBP d_k = 0 on dense grid",
+      "data": [
+        {
+          "theta": 0.0,
+          "d_k": 0.0
+        },
+        {
+          "theta": 0.6346651825433925,
+          "d_k": 0.0
+        },
+        {
+          "theta": 1.269330365086785,
+          "d_k": 0.0
+        },
+        {
+          "theta": 1.9039955476301778,
+          "d_k": 0.0
+        },
+        {
+          "theta": 2.53866073017357,
+          "d_k": 0.0
+        },
+        {
+          "theta": 3.173325912716963,
+          "d_k": 0.0
+        },
+        {
+          "theta": 3.8079910952603555,
+          "d_k": 0.0
+        },
+        {
+          "theta": 4.442656277803748,
+          "d_k": 0.0
+        },
+        {
+          "theta": 5.07732146034714,
+          "d_k": 0.0
+        },
+        {
+          "theta": 5.711986642890533,
+          "d_k": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Part B: Wrong basis L_prime = {X_q}",
+      "data": {
+        "L_correct_d_k_mean": 0.0,
+        "L_wrong_d_k_mean": 0.0,
+        "separation": 0.0
+      }
+    },
+    {
+      "name": "Part C: Random theta vs near fixed theta",
+      "data": {
+        "Var_random_init_mean": 0.015762862215162786,
+        "Var_near_fixed_mean": 0.0,
+        "ratio": 0.0
+      }
+    }
+  ]
+}

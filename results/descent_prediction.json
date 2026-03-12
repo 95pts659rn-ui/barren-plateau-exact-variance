@@ -1,0 +1,37 @@
+{
+  "block": "Block VII",
+  "title": "A Priori DESCENT Prediction",
+  "description": "d_k computed from circuit type before running experiment",
+  "scenarios": [
+    {
+      "scenario": "ECBP_no_descent",
+      "circuit_type": "ECBP",
+      "descent": false,
+      "pred_d_k": 0.0,
+      "pred_var": 0.0,
+      "meas_d_k": 0.0,
+      "meas_var": 0.0,
+      "reasoning": "Rz_only: G~_k diagonal, d_k = 0"
+    },
+    {
+      "scenario": "ECBP_with_descent",
+      "circuit_type": "ECBP",
+      "descent": true,
+      "pred_d_k": 1.891033816465266,
+      "pred_var": 0.003386372059673475,
+      "meas_d_k": 1.94244667571925,
+      "meas_var": 0.0,
+      "reasoning": "Rz + XX_descent: d_k ~ 1.891"
+    },
+    {
+      "scenario": "SBP_deep_HEA",
+      "circuit_type": "SBP",
+      "descent": false,
+      "pred_d_k": 2.783882181415011,
+      "pred_var": 0.007339015151515153,
+      "meas_d_k": 2.617699803377065,
+      "meas_var": 0.0,
+      "reasoning": "Haar limit: d_k ~ 2.784"
+    }
+  ]
+}

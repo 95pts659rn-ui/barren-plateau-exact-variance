@@ -1,0 +1,49 @@
+{
+  "block": "Block VI",
+  "title": "Parameter-Count Sweep",
+  "description": "Var is independent of total parameter count p = 2*n*depth",
+  "data": [
+    {
+      "depth": 1,
+      "param_count": 10,
+      "var_mean": 0.003649016094057929,
+      "d_k_mean": 1.771735107211298
+    },
+    {
+      "depth": 2,
+      "param_count": 20,
+      "var_mean": 0.0045818164546826854,
+      "d_k_mean": 2.1706603654849443
+    },
+    {
+      "depth": 3,
+      "param_count": 30,
+      "var_mean": 0.0048384029387933715,
+      "d_k_mean": 2.368337630422551
+    },
+    {
+      "depth": 4,
+      "param_count": 40,
+      "var_mean": 0.004834750293480699,
+      "d_k_mean": 2.473594725155999
+    },
+    {
+      "depth": 6,
+      "param_count": 60,
+      "var_mean": 0.004480353564993905,
+      "d_k_mean": 2.5100228210423547
+    },
+    {
+      "depth": 8,
+      "param_count": 80,
+      "var_mean": 0.004376225081759965,
+      "d_k_mean": 2.5856673404926322
+    },
+    {
+      "depth": 10,
+      "param_count": 100,
+      "var_mean": 0.0041794640012881015,
+      "d_k_mean": 2.6051193646083477
+    }
+  ]
+}

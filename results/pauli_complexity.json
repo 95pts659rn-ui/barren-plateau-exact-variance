@@ -1,0 +1,61 @@
+{
+  "block": "Block IX",
+  "title": "Pauli Complexity Scaling",
+  "description": "Variance scaling with Pauli observable sparsity",
+  "data": [
+    {
+      "n": 4,
+      "N_terms": 1,
+      "variance_unit_mean": 0.028118017676705388,
+      "variance_unit_std": 0.054980953992226834,
+      "variance_normalized_mean": 0.0018170802495726687,
+      "variance_normalized_std": 0.0007362247504909369,
+      "ratio_normalized_to_unit": 0.06462334117806763
+    },
+    {
+      "n": 4,
+      "N_terms": 5,
+      "variance_unit_mean": 0.140598628102499,
+      "variance_unit_std": 0.10340116805380123,
+      "variance_normalized_mean": 0.0018073992204804539,
+      "variance_normalized_std": 0.0005425884279376029,
+      "ratio_normalized_to_unit": 0.012855027427172521
+    },
+    {
+      "n": 4,
+      "N_terms": 10,
+      "variance_unit_mean": 0.31033825597670406,
+      "variance_unit_std": 0.15408195998668858,
+      "variance_normalized_mean": 0.001832052337669419,
+      "variance_normalized_std": 0.0003898417848852514,
+      "ratio_normalized_to_unit": 0.005903404760407445
+    },
+    {
+      "n": 4,
+      "N_terms": 20,
+      "variance_unit_mean": 0.5989400695037449,
+      "variance_unit_std": 0.21546296436723492,
+      "variance_normalized_mean": 0.0018547717495386979,
+      "variance_normalized_std": 0.00028856648253155874,
+      "ratio_normalized_to_unit": 0.0030967568275662026
+    },
+    {
+      "n": 4,
+      "N_terms": 50,
+      "variance_unit_mean": 1.4448646453181941,
+      "variance_unit_std": 0.34274321089844917,
+      "variance_normalized_mean": 0.0018348947505274426,
+      "variance_normalized_std": 0.00023332183218062824,
+      "ratio_normalized_to_unit": 0.001269942313609144
+    },
+    {
+      "n": 4,
+      "N_terms": 100,
+      "variance_unit_mean": 2.9875245520391682,
+      "variance_unit_std": 0.5702900337064293,
+      "variance_normalized_mean": 0.0018490017412505458,
+      "variance_normalized_std": 0.00018316431873948802,
+      "ratio_normalized_to_unit": 0.0006189076303953683
+    }
+  ]
+}
